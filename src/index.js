@@ -1,22 +1,22 @@
 let nomeHeroi = "Bilu ";
-let expericeiencia = 0;
+let experiencia = 8550;
 let nivel = ""
 
-if (expericeiencia <= 1000){
+if (experiencia <= 1000){
     nivel = "Ferro";
-} else if (expericeiencia >= 1001 && expericeiencia <=2000){
+} else if (experiencia >= 1001 && experiencia <=2000){
     nivel = "Bronze";
-} else if (expericeiencia >=2001 && expericeiencia <=5000){
+} else if (experiencia >=2001 && experiencia <=5000){
     nivel = "Prata";
-} else if (expericeiencia >=5001 && expericeiencia <=7000){
+} else if (experiencia >=5001 && experiencia <=7000){
     nivel = "Ouro";
-} else if (exoericencia >=7001 && expericeiencia <=8000){
+} else if (experiencia >=7001 && experiencia <=8000){
     nivel = "Platina";
-} else if (expericeiencia >=8001 && expericeiencia <=9000){
+} else if (experiencia>=8001 && experiencia <=9000){
     nivel = "Ascendente";
-} else if (expericeiencia >= 9001 && expericeiencia <=10000){
+} else if (experiencia >= 9001 && experiencia <=10000){
     nivel = 'Imortal';
-} else if (expericeiencia >= 10001){
+} else if (experiencia >= 10001){
     nivel = "Radiante";
 }
 
