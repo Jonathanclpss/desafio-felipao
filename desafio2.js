@@ -4,7 +4,7 @@ let nivel = ""
 
  if (calculosDaPartida <= 10 ) {
         nivel = "Ferro";
-    } else if(calculosDaPartida >= 11 && calculosDaPartida <= 20){
+} else if(calculosDaPartida >= 11 && calculosDaPartida <= 20){
       nivel = "Bronze";
 } else if (calculosDaPartida >= 21 && calculosDaPartida <= 50){
       nivel = "Prata";
@@ -19,7 +19,7 @@ let nivel = ""
 }
 
 
-console.log(`O heroi tem de ${calculosDaPartida} vitorias e esta no nivel ${nivel}`)
+console.log(`O Herói tem de saldo de ${calculosDaPartida} vitorias é está no nivel de ${nivel}`)
 
 function calcularSaldo(vitorias, derrotas){
     let calculo = vitorias - derrotas
